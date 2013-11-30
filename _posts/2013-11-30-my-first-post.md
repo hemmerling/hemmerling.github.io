@@ -1,1 +1,5 @@
-Noch ein Test
+---
+title: my first post
+layout: post
+---
+hello world
