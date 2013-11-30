@@ -4,4 +4,9 @@ title: Title of OpenTechSchool Project Page -
 
 ---
 <h2>Hello Hamburg-schlumpf </h2>
+<ul>
+    {% for post in site.posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
 
